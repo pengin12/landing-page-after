@@ -63,9 +63,7 @@ body {
 }
 
 .third {
-  padding: 8% 30%;
-  height: 250px;
-  padding: 0;
+  padding-bottom: 8%;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -86,6 +84,25 @@ body {
   height: 150px;
   border-radius: 12px;
   border: 4px solid #3882F6;
+}
+
+.fourth {
+  background-color: #E5E7EB;
+  padding: 4% 18%;
+}
+
+.quote-container {
+  color: #1F2937;
+}
+
+.quote-container p {
+  font-size: 36px;
+  font-weight: 300;
+}
+
+.quote-container div {
+  font-weight: bold;
+  text-align: right;
 }
 
 button {
