@@ -29,11 +29,16 @@ body {
   color: #E5E7EB;
 }
 
+.header,
+.second,
+.fifth {
+  padding: 0 15%;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 15%;
 }
 
 .header ul {
@@ -49,8 +54,8 @@ body {
 .second {
   display: flex;
   justify-content: space-between;
-  height: 250px;
-  padding: 8% 15%;
+  padding-top: 8%;
+  padding-bottom: 8%;
   gap: 4%;
 }
 
@@ -105,6 +110,14 @@ body {
   text-align: right;
 }
 
+.fifth {
+  margin: 4%;
+}
+
+.call {
+  background-color: #3882F6;
+}
+
 button {
   background-color: #3882F6;
   font-size: 18px;
@@ -115,5 +128,6 @@ button {
 }
 
 img {
+  height: 250px;
   object-fit: cover;
 }
