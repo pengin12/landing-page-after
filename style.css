@@ -150,3 +150,8 @@ img {
   height: 250px;
   object-fit: cover;
 }
+
+.footer {
+  padding: 16px;
+  text-align: center;
+}
